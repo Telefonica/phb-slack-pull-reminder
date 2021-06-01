@@ -5,7 +5,7 @@ with open('README.rst', 'rb') as f:
 
 setup(
     name='slack-pull-reminder',
-    version='0.2.0',
+    version='0.1.2',
     url='http://github.com/ekmartin/slack-pull-reminder',
     author='Martin Ek',
     author_email='mail@ekmartin.com',
@@ -14,8 +14,8 @@ setup(
     py_modules=['slack_pull_reminder'],
     license='MIT',
     install_requires=[
-        'requests==2.21.0',
-        'github3.py==1.0.0a4'
+        'requests==2.11.1',
+        'github3.py'
     ],
     entry_points='''
         [console_scripts]
